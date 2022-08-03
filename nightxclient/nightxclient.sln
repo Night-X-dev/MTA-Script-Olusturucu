@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1778
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nightxclient", "nightxclient\nightxclient.csproj", "{33C4522A-9C02-43ED-8412-23671720F4B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33C4522A-9C02-43ED-8412-23671720F4B0}.Debug|Default.ActiveCfg = Debug|Any CPU
+		{33C4522A-9C02-43ED-8412-23671720F4B0}.Debug|Default.Build.0 = Debug|Any CPU
+		{33C4522A-9C02-43ED-8412-23671720F4B0}.Release|Default.ActiveCfg = Release|Any CPU
+		{33C4522A-9C02-43ED-8412-23671720F4B0}.Release|Default.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFCA1674-E558-4C77-834D-9765B20F598D}
+	EndGlobalSection
+EndGlobal

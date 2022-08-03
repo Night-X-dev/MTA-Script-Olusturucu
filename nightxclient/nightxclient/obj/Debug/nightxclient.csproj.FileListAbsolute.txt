@@ -1,0 +1,16 @@
+C:\Users\Mustafa\source\repos\nightxclient\nightxclient\bin\Debug\nightxclient.exe.config
+C:\Users\Mustafa\source\repos\nightxclient\nightxclient\bin\Debug\nightxclient.exe
+C:\Users\Mustafa\source\repos\nightxclient\nightxclient\bin\Debug\nightxclient.pdb
+C:\Users\Mustafa\source\repos\nightxclient\nightxclient\bin\Debug\Guna.UI2.dll
+C:\Users\Mustafa\source\repos\nightxclient\nightxclient\obj\Debug\nightxclient.csprojAssemblyReference.cache
+C:\Users\Mustafa\source\repos\nightxclient\nightxclient\obj\Debug\nightxclient.Form1.resources
+C:\Users\Mustafa\source\repos\nightxclient\nightxclient\obj\Debug\nightxclient.Properties.Resources.resources
+C:\Users\Mustafa\source\repos\nightxclient\nightxclient\obj\Debug\nightxclient.csproj.GenerateResource.cache
+C:\Users\Mustafa\source\repos\nightxclient\nightxclient\obj\Debug\nightxclient.csproj.CoreCompileInputs.cache
+C:\Users\Mustafa\source\repos\nightxclient\nightxclient\obj\Debug\nightxclient.csproj.CopyComplete
+C:\Users\Mustafa\source\repos\nightxclient\nightxclient\obj\Debug\nightxclient.exe
+C:\Users\Mustafa\source\repos\nightxclient\nightxclient\obj\Debug\nightxclient.pdb
+C:\Users\Mustafa\source\repos\nightxclient\nightxclient\obj\Debug\nightxclient.Form2.resources
+C:\Users\Mustafa\source\repos\nightxclient\nightxclient\obj\Debug\nightxclient.Form3.resources
+C:\Users\Mustafa\source\repos\nightxclient\nightxclient\obj\Debug\nightxclient.Form4.resources
+C:\Users\Mustafa\source\repos\nightxclient\nightxclient\obj\Debug\nightxclient.Form5.resources
