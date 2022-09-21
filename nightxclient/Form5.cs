@@ -20,6 +20,7 @@ namespace nightxclient
         string dy;
         string dy2 = "";
         string folderInfo;
+        string kaynakDosya = "", kaynakDosyaIsmi = "", hedefKlasor = "";
         private void Form5_Load(object sender, EventArgs e)
         {
             openFileDialog1.Title = "Bir dosya seçiniz";
@@ -54,7 +55,9 @@ namespace nightxclient
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 guna2TextBox2.Text = openFileDialog1.SafeFileName;
-
+                kaynakDosyaIsmi = openFileDialog1.SafeFileName.ToString();
+                kaynakDosya = openFileDialog1.FileName.ToString();
+                
             }
         }
 
@@ -117,6 +120,20 @@ namespace nightxclient
             }
             else
             {
+                hedefKlasor = folderBrowserDialog1.SelectedPath.ToString();
+                
+                if (hedefKlasor != "" && kaynakDosya != "")
+                {
+                    if (File.Exists(hedefKlasor + "\\" + kaynakDosyaIsmi))
+                    {
+                        MessageBox.Show("Belirtilen klasörde " + kaynakDosyaIsmi + " isimli dosya zaten mevcut...", "Uyarı..!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                    else
+                    {
+                        File.Copy(kaynakDosya, hedefKlasor + "\\" + kaynakDosyaIsmi);
+                        MessageBox.Show("Dosya Kopyalama İşlemi Başarılı", "Dosya Kopyalandı...");
+                    }
+                }
                 KlasorOlusturmaIslemi();
                 ClientOlusturma();
                 MetaOlusturma();

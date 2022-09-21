@@ -36,11 +36,11 @@ namespace nightxclient
         }
         string dy;
         string dy2 = "";
+        string folderInfo;
         private void guna2CircleButton1_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-        string folderInfo;
         void KlasorOlusturmaIslemi()
         {
             folderBrowserDialog1.ShowDialog();
